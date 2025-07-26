@@ -7,15 +7,12 @@ if [ -z $cmd ]; then
     exit 1
 fi
 
-ROOT=https://github.com/Starry-Mix-THU
+ROOT=https://github.com/Starry-OS
 
 REPOS=(
+    "axfs-ng-vfs"
     "axprocess"
     "axsignal"
-    "weak-map"
-    "extern-trait"
-    "axfs-ng-vfs"
-    "axptr"
 )
 
 mkdir -p crates

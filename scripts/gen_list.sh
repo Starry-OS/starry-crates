@@ -1,15 +1,12 @@
 #!/bin/bash
 
-ROOT=https://github.com/Starry-Mix-THU
-DOC_ROOT=https://Starry-Mix-THU.github.io
+ROOT=https://github.com/Starry-OS
+DOC_ROOT=https://Starry-OS.github.io
 
 CRATES=(
+    "axfs-ng-vfs"
     "axprocess"
     "axsignal"
-    "weak-map"
-    "extern-trait"
-    "axfs-ng-vfs"
-    "axptr"
 )
 
 
@@ -25,7 +22,7 @@ do
         description+="."
     fi
 
-    if [[ `curl -s https://crates.io/api/v1/crates/$c | grep arceos-org` ]]
+    if [[ `curl -s https://crates.io/api/v1/crates/$c | grep Starry-OS` ]]
     then
         # In crates.io
         crates_io="[![Crates.io](https://img.shields.io/crates/v/$c)](https://crates.io/crates/$c)"

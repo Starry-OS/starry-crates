@@ -1,18 +1,9 @@
-[submodule "crates/axprocess"]
-	path = crates/axprocess
-	url = https://github.com/Starry-Mix-THU/axprocess.git
-[submodule "crates/axsignal"]
-	path = crates/axsignal
-	url = https://github.com/Starry-Mix-THU/axsignal.git
-[submodule "crates/weak-map"]
-	path = crates/weak-map
-	url = https://github.com/Starry-Mix-THU/weak-map.git
-[submodule "crates/extern-trait"]
-	path = crates/extern-trait
-	url = https://github.com/Starry-Mix-THU/extern-trait.git
 [submodule "crates/axfs-ng-vfs"]
 	path = crates/axfs-ng-vfs
-	url = https://github.com/Starry-Mix-THU/axfs-ng-vfs.git
-[submodule "crates/axptr"]
-	path = crates/axptr
-	url = https://github.com/Starry-Mix-THU/axptr.git
+	url = https://github.com/Starry-OS/axfs-ng-vfs.git
+[submodule "crates/axprocess"]
+	path = crates/axprocess
+	url = https://github.com/Starry-OS/axprocess.git
+[submodule "crates/axsignal"]
+	path = crates/axsignal
+	url = https://github.com/Starry-OS/axsignal.git
