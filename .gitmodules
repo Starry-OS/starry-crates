@@ -1,9 +1,9 @@
 [submodule "crates/axfs-ng-vfs"]
 	path = crates/axfs-ng-vfs
 	url = https://github.com/Starry-OS/axfs-ng-vfs.git
-[submodule "crates/axprocess"]
-	path = crates/axprocess
-	url = https://github.com/Starry-OS/axprocess.git
-[submodule "crates/axsignal"]
-	path = crates/axsignal
-	url = https://github.com/Starry-OS/axsignal.git
+[submodule "crates/starry-process"]
+	path = crates/starry-process
+	url = https://github.com/Starry-OS/starry-process.git
+[submodule "crates/starry-signal"]
+	path = crates/starry-signal
+	url = https://github.com/Starry-OS/starry-signal.git
